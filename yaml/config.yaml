@@ -1,0 +1,27 @@
+General:
+  app_name: MyApplication
+  version: 1.0.0
+  debug: true
+
+Database:
+  host: localhost
+  port: 5432
+  username: admin
+  password: secret
+  database: mydb
+
+Logging:
+  level: INFO
+  file: app.log
+  max_size: 10MB
+  backup_count: 5
+
+Features:
+  feature_1: true
+  feature_2: false
+  feature_3: true
+
+Paths:
+  data_dir: /var/data
+  temp_dir: /tmp
+  log_dir: /var/log/myapp
